@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "phantomrider",
+  "version": "${version}",
+  "name": "Phantom Rider",
+  "description": "Tame phantoms with any item, saddle them, and fly them like a mount.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.phantomrider.PhantomRiderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
